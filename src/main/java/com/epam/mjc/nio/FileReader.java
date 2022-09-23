@@ -26,7 +26,6 @@ public class FileReader {
                 buffer.clear();
                 bytesRead = channel.read(buffer);
 
-            incFile.close();
                 String result = content.toString();
                 String[] data = result.split("\n");
 
